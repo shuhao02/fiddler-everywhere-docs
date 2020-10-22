@@ -126,7 +126,7 @@ www.example.com/Path1/query=foo // (MATCH)
 ```
 regex:.+.jpg$
 
-www.example.com/Path1/query=foo.jpg&bar // (MATCH)
+www.example.com/Path1/query=foo.jpg&bar // (NO MATCH)
 www.example.com/Path1/query=example.jpg // (MATCH)
 ```
 
